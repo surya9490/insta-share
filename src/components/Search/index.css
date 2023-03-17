@@ -1,0 +1,71 @@
+.search-failure {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+}
+
+.search-failure img {
+  width: 258px;
+  height: 210px;
+  margin-bottom: 24px;
+}
+.search-failure h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+}
+.search-failure p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #989898;
+}
+
+.search-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+@media only screen and (min-width: 900px) {
+  .search-failure img {
+    width: 500px;
+    height: 409px;
+  }
+  .search-failure h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #262626;
+  }
+  .search-failure p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #989898;
+  }
+}

@@ -1,0 +1,65 @@
+.eachStory__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0px;
+  margin: auto;
+}
+.slick-container {
+  width: 80%;
+  margin: auto;
+}
+.slick-container p {
+  max-width: 50px;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+  margin: auto;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #989898;
+}
+
+.slickItem {
+}
+
+@media only screen and (min-width: 900px) {
+  .slick-container {
+    padding: 48px 0;
+  }
+  .eachStory__image {
+    width: 70px;
+    height: 70px;
+  }
+  .slickItem {
+  }
+}
+.userstoies-failure,
+.userStories-loader {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retry-button {
+  padding: 8px 24px;
+
+  width: 102px;
+  height: 32px;
+  background: #4094ef;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border: none;
+  color: white;
+  font-family: 'Roboto';
+}
+@media only screen and (min-width: 900px) {
+  .userstoies-failure,
+  .userStories-loader {
+    height: 200px;
+  }
+}

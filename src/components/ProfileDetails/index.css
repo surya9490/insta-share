@@ -1,0 +1,96 @@
+* p h1 {
+  font-family: 'Roboto';
+}
+
+.profile-details {
+  margin: 0 24px;
+  font-family: 'Roboto';
+}
+
+.profile-details__username {
+  margin-top: 28px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.profile-details-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.profile-details__userId {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.profile-details__bio {
+  margin-top: 4px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.profile-details__user-image {
+  height: 96px;
+  width: 96px;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+
+.stories {
+  width: 56px;
+  height: 56px;
+  padding: 4px;
+  border-radius: 50%;
+
+  border: 1px solid #c7c7cc;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding-bottom: 24px;
+}
+.profile-details__grid {
+  border-top: 0.5px solid #c6c6c8;
+}
+.grid-container p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Roboto';
+}
+
+.grid-container {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-left: 27px;
+}
+.grid {
+  height: 14.06px;
+  width: 14.06px;
+  color: #262626;
+}
+
+.posted-images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: -6px;
+  gap: 3px;
+}
+
+.posted-images img {
+  width: 33.33vw;
+}

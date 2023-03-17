@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .container {
+    max-width: 1040px;
+    padding-right: clamp(100px, 15%, 200px);
+    padding-left: clamp(100px, 15%, 200px);
+    margin: auto;
+  }
+}
